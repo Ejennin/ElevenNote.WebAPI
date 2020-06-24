@@ -179,6 +179,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\SwaggerConfig.cs" />
@@ -325,6 +326,10 @@
     <ProjectReference Include="..\ElevenNote.Services\ElevenNote.Services.csproj">
       <Project>{67cb07c2-6c72-4e7b-bddf-cebdc37fc449}</Project>
       <Name>ElevenNote.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ElevenNote.WebMVC\ElevenNote.WebMVC.csproj">
+      <Project>{7148DCB6-667B-4BD7-B749-10F422AACAB0}</Project>
+      <Name>ElevenNote.WebMVC</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

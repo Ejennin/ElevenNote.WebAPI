@@ -11,6 +11,7 @@ using Owin;
 using ElevenNote.WebAPI.Providers;
 using ElevenNote.WebAPI.Models;
 using ElevenNote.Data;
+using ElevenNote.WebMVC;
 
 namespace ElevenNote.WebAPI
 {
